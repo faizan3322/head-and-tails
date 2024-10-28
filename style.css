@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.choice{
+    border-radius: 50%;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+
+}
+.choice:hover{
+    opacity: 40%;
+    
+}
+.choice img{
+    width: 10rem;
+    align-items: center;
+}
+.score{
+    /* gap: 8rem; */
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+#user, #comp{
+    font-size:3rem;
+}
+.result{
+    margin-top:2rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#res-btn{
+    padding: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    border: solid 2px black;
+    background-color: black;
+}
+.loader{
+    width: 10rem;
+    height: 10rem;
+    
+}

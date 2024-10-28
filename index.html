@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="heads.jpg">
+  <title>Head and tails</title>
+</head>
+
+<body>
+  
+  <div class="container">
+    <div class="row choices d-flex justify-content-center align-items-center">
+      <div class=" choice col-lg-2 col-sm-6 d-flex justify-content-center align-items-center" id="heads">
+        <img src="heads.jpg" alt="">
+      </div>
+      <div class=" choice col-lg-2 col-sm-6 d-flex justify-content-center align-items-center" id="tails">
+        <img src="tails.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- score -->
+  <div class="container">
+    <div class="row score d-flex justify-content-center align-items-center ">
+      <div class="user-score col-lg-2 col-sm-6">
+        <p id="user">0</p> 
+        <p>User</p>
+      </div>
+      <div class="comp-score col-lg-2 col-sm-6">
+        <p id="comp">0</p>
+        <p>Computer</p>
+      </div>
+    </div>
+  </div>
+  <!-- button -->
+   <div class="result">
+    <button id="res-btn">Let's Play</button>
+   </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
